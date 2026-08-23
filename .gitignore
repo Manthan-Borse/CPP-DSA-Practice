@@ -1,0 +1,18 @@
+# C++ compiled files
+*.exe
+*.out
+*.o
+*.obj
+
+# Build folders
+build/
+bin/
+Debug/
+Release/
+
+# VS Code
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
