@@ -46,6 +46,6 @@ int main(){
      std::cin>>tar;
      std::cout<<std::endl;
     int a= BS_rotated(arr,tar);
-    std::cout<<a;
+    std::cout<<"the index of targeted element is: "<<a;
     return 0;
 }
