@@ -15,10 +15,7 @@ for(int i=1;i<n;i++){
 }
 
 
-    for(int i=0;i<n;i++){
-        std::cout<<a[i]<<" ";
-    }
-
+  
 }
 
 int main(){
