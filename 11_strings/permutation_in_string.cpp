@@ -11,16 +11,15 @@ bool isPermutation(int freq[],int windfreq[]){
 }
 
 int main(){
-    int freq[26]={0};
-    
-    std::string str;
+   
+        std::string str;
     std::cout<< "Enter a string: ";
     std::getline(std::cin,str);
 
-
     std::cout<<"enter the string to check for permutation: ";
     std::string substr;
-    
+
+    int freq[26]={0};
     std::getline(std::cin,substr);
         for(int i=0;i<substr.length();i++)
         {
